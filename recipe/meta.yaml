@@ -1,0 +1,29 @@
+package:
+  name: sygma
+  version: 1.0
+
+source:
+  fn: SyGMa-1.0.tar.gz
+  md5: 5474eea1393f7a6670b5ccfa82bb5d1f
+  url: https://pypi.python.org/packages/ca/a9/f8ce3cc920fa5c0624734531ec487817453c831c25de54e2563f5fcd8103/SyGMa-1.0.tar.gz
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - rdkit
+    - nose
+
+  run:
+    - python
+    - rdkit
+
+test:
+  imports:
+    - sygma
+    - rdkit
+
+about:
+  home: https://github.com/3D-e-Chem/sygma
+  license: GPL
+  license_file:
