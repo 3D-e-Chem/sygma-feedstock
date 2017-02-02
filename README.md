@@ -14,9 +14,9 @@ Summary:
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sygma-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sygma-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/sygma-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sygma-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sygma-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sygma-feedstock/branch/master)
+Linux: [![Circle CI](https://circleci.com/gh/3D-e-Chem/sygma-feedstock.svg?style=shield)](https://circleci.com/gh/3D-e-Chem/sygma-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/sygma-feedstock.svg?branch=master)](https://travis-ci.org/3D-e-Chem/sygma-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/3D-e-Chem/sygma-feedstock?svg=True)](https://ci.appveyor.com/project/3D-e-Chem/sygma-feedstock/branch/master)
 
 Current release info
 ====================
