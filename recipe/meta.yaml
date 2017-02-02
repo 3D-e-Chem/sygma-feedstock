@@ -1,11 +1,11 @@
 package:
   name: sygma
-  version: 1.0
+  version: 1.0.1
 
 source:
-  fn: SyGMa-1.0.tar.gz
-  md5: 5474eea1393f7a6670b5ccfa82bb5d1f
-  url: https://pypi.python.org/packages/ca/a9/f8ce3cc920fa5c0624734531ec487817453c831c25de54e2563f5fcd8103/SyGMa-1.0.tar.gz
+  fn: SyGMa-1.0.1.tar.gz
+  md5: a797d73abd2680e1b22222006693e540
+  url: https://pypi.python.org/packages/62/9e/65b7fbb38f83e187d5af5db02ec7ae710b909644f6d7731ca5dd8ce13e2f/SyGMa-1.0.1.tar.gz
 
 requirements:
   build:
