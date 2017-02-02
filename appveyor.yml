@@ -9,7 +9,9 @@ environment:
   # See: http://stackoverflow.com/a/13751649/163740
   CMD_IN_ENV: "cmd /E:ON /V:ON /C obvci_appveyor_python_build_env.cmd"
 
-  
+  BINSTAR_TOKEN:
+    # The BINSTAR_TOKEN secure variable. This is defined canonically in conda-forge.yml.
+    secure: fzG+V9uXoZu0vcXv34MssmrVEg8Bz/BeE9Vud3/J5f48+l1TiHgnanuhHc9hu7PQ
 
   matrix:
     - TARGET_ARCH: x86
@@ -63,4 +65,4 @@ build: off
 test_script:
     - "%CMD_IN_ENV% conda build recipe --quiet"
 deploy_script:
-    - cmd: upload_or_check_non_existence .\recipe conda-forge --channel=main
+    - cmd: upload_or_check_non_existence .\recipe 3D-e-Chem --channel=main
