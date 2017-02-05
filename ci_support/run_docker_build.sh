@@ -14,6 +14,7 @@ config=$(cat <<CONDARC
 
 channels:
  - rdkit
+ - conda-forge
 
 conda-build:
  root-dir: /feedstock_root/build_artefacts
