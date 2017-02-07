@@ -3,9 +3,9 @@ package:
   version: 1.0.1
 
 source:
-  fn: SyGMa-1.0.1.tar.gz
-  md5: a797d73abd2680e1b22222006693e540
-  url: https://pypi.python.org/packages/62/9e/65b7fbb38f83e187d5af5db02ec7ae710b909644f6d7731ca5dd8ce13e2f/SyGMa-1.0.1.tar.gz
+  fn: SyGMa-1.1.0.tar.gz
+  md5: 0a398b1d2633e5153c8b588fd823232c
+  url: https://pypi.python.org/packages/01/0d/7960ca6076d00ff33bf2aa0ac925074a07820900b8b8ae1edae83d12e488/SyGMa-1.1.0.tar.gz
 
 requirements:
   build:
